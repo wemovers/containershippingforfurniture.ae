@@ -15,7 +15,9 @@ import Faqs from '../components/Faqs'
 const HomePage = () => {
   return (
     <div>
-
+<Blog/>
+<Faqs/>
+<Mission/>
     </div>
   )
 }
