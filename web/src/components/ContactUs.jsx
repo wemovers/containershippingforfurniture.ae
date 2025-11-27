@@ -29,7 +29,7 @@ const ContactUs = () => {
   return (
     <div
       style={{
-        backgroundColor: bgColor,
+        backgroundColor: '#ffff',
         padding: '60px 20px',
         fontFamily: 'Poppins, sans-serif',
       }}

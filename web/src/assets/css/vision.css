@@ -1,0 +1,18 @@
+.vision-section {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.vision-section .btn {
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.vision-section h2 {
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.vision-section p {
+  line-height: 1.6;
+}
