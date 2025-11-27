@@ -15,17 +15,20 @@ import Faqs from '../components/Faqs'
 const HomePage = () => {
   return (
     <div>
-
-
-
- <Hero/>
- <Services/>
- <ContactUs/>
-    <Blog/>
-<Faqs/>
-<Mission/>
-
-
+      <Hero />
+      <About/>
+      <Values/>
+      <Gallery/>
+      <Vision/>
+      <Mission />
+      <Services />
+      
+      <Blog />
+      <Faqs />
+      <ContactUs />
+      
+      
+      
     </div>
   )
 }

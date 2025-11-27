@@ -9,6 +9,7 @@ import dataCenter1 from '../assets/img/data-center-1.webp';
 import office1 from '../assets/img/office-1.webp';
 import storage1 from '../assets/img/storage-1.webp';
 
+import '../assets/css/gallery.css'
 const images = [
   { id: 1, title: 'Home', src: home1 },
   { id: 2, title: 'Home', src: home2 },
@@ -29,7 +30,6 @@ const Gallery = () => {
           data-wow-delay="0.1s"
           style={{ maxWidth: '600px' }}
         >
-          <p className="section-title bg-white text-center text-primary px-3">Gallery</p>
           <h1 className="mb-3">Explore Our Work Gallery</h1>
           <p style={{textAlign:'justify'}}>
             At WeMovers, we specialize in residential, commercial, office, and data center
