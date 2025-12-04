@@ -30,11 +30,9 @@ const Gallery = () => {
           data-wow-delay="0.1s"
           style={{ maxWidth: '600px' }}
         >
-          <h1 className="mb-3">Explore Our Work Gallery</h1>
+          <h1 className="mb-3">Explore Our Furniture Container Shipping Gallery</h1>
           <p style={{textAlign:'justify'}}>
-            At WeMovers, we specialize in residential, commercial, office, and data center
-            relocations. Our gallery highlights real moments from our trusted and reliable services
-            across the UAE.
+            Explore Our Furniture Container Shipping in Dubai Gallery. Have a look at our gallery to understand the different stages of the process when we diligently pack, load, and ship furniture in safe containers. All pictures depict our dedication to security, accuracy, and customer satisfaction, thus providing you with a transparent look at the attention and skills we deliver with every consignment.
           </p>
         </div>
 

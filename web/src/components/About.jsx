@@ -15,13 +15,12 @@ const About = () => {
                 className="mb-4 fw-bold display-5"
                 style={{ color: '#4C763B' }}
               >
-                Know About WeMovers & Our Journey
+                Know About container shipping for furniture: Our Journey
               </h1>
             </div>
             
             <p className="mb-4" style={{ textAlign: 'justify', color: '#555', lineHeight: '1.7' }}>
-              One of the best moving and packaging companies in the Emirates is Wemovers Abu Dhabi. 
-              We founded the company in 2000 with experienced directors, who are well aware of the moving market.
+              Good furniture container shipping at affordable prices with a quick delivery is what we aim for. Our focus on safety and security is what has led us to where we are today. We ensure the best packing methods, the proper loading, and, most importantly, safety in the container for the transport and delivery. 
             </p>
 
             {/* Feature Cards */}
@@ -35,9 +34,7 @@ const About = () => {
                   }}
                 >
                   <p className="mb-0" style={{ textAlign: 'justify', color: '#4C763B' }}>
-                    The primary inspiration for the installation of Wemovers was to meet the opportunity 
-                    to meet need for a professional moving service. As we understand, various problems 
-                    that customers face in the moving service market are well understood.
+                    We have gone through the process of perfecting our methods, incorporating modern logistics solutions, and building a team that is both skilled and passionate about furniture delivery over time.
                   </p>
                 </div>
               </div>
@@ -50,9 +47,7 @@ const About = () => {
                   }}
                 >
                   <p className="mb-0" style={{ textAlign: 'justify', color: '#4C763B' }}>
-                    We are Abu Dhabi's leading ISO-Puts and Packers. When the time comes for you to 
-                    relocate domestically, give Wemovers in Abu Dhabi a call. whether it's domestic 
-                    or international. Compared to the other, we make it quicker and easier for you.
+                   As a result, we are now able to offer a service that is a combination of trust, experience, and innovation, thereby assuring that furniture delivery is safe and without any inconvenience to the customer.
                   </p>
                 </div>
               </div>
@@ -66,7 +61,7 @@ const About = () => {
                 color: '#FFFD8F',
                 transition: 'all 0.3s ease'
               }}
-              href="https://www.wemovers.ae/about"
+              href="https://www.wemovers.ae/services"
               onMouseOver={(e) => {
                 e.target.style.backgroundColor = '#B0CE88';
                 e.target.style.color = '#4C763B';
@@ -78,7 +73,7 @@ const About = () => {
                 e.target.style.transform = 'translateY(0)';
               }}
             >
-              Explore More
+              Explore Services
             </a>
           </div>
 

@@ -32,14 +32,11 @@ const Vision = () => {
                   <img className="img-fluid rounded" src={img2} alt="Vision" />
                 </div>
                 <div className="col-sm-8">
-                  <h2 className="text-white mb-3" style={{ color: '#FFFD8F' }}>Our Strategic Vision</h2>
+                  <h2 className="text-white mb-3" style={{ color: '#FFFD8F' }}>Our Strategic Value container shipping Abu Dhabi </h2>
                   <p className="text-white mb-4" style={{ textAlign: 'justify' }}>
-                    The vision of our organization acts as a compass and map to meet the company's abilities and skills. 
-                    We strive to be the preferred logistics partners with extensive worldwide footprints and a large presence 
-                    in India that offer top-notch, reasonably priced services. 
+                    Our strategy is centered around providing a container shipping solution for furniture that is easy, safe, and cheap. We concentrate on mixing high service quality with low container shipping Abu Dhabi costs, thus customers get excellent value for money without the need to compromise safety or efficiency. Through the implementation of innovative packing methods, trustworthy container management, and straightforward pricing approaches, we turn the long-distance shipping of furniture into a solution that is not only affordable and easy but also free of worries. 
                     <br/><br/>
-                    We are committed to building brands for all stakeholders through environmentally friendly business 
-                    practices and sustainable production methods that create value while protecting our planet.
+                    The fulfillment of our firm customer service, which is based on careful strategic planning, smart logistics, and customer satisfaction, enables us to give a reliable service that is always able to meet the requirements of homeowners, businesses, and international movers.
                   </p>
                   <a 
                     className="btn rounded-pill py-2 px-4" 

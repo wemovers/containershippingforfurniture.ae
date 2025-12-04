@@ -13,21 +13,21 @@ const OurValues = () => {
     {
       id: 1,
       title: 'Customer First',
-      description: 'Wemovers Abu Dhabi has top moving companies, and they have this expertise that will ensure that your move is professional and comfortable, whether you are moving forward wherever you move.',
+      description: 'We are committed to our customers, and their satisfaction is our foremost concern. We always listen to our customers, answer them, and carry out the services that meet their shipping companies needs, caring for them.',
       icon: <FaUsers />,
       accent: primaryColor
     },
     {
       id: 2,
       title: 'Integrity',
-      description: 'If you live in Abu Dhabi and go to another city or house in the Emirates, or make a plan in search of Packers and Movers, then just call us. As one of the top businesses in Abu Dhabi, we will make the procedure really simple',
+      description: 'operate with honesty and transparency, which means that we carefully show every stage of the furniture shipping in Abu Dhabi process that is made up of clear, fair, and trustworthy steps.',
       icon: <FaShieldAlt />,
       accent: secondaryColor
     },
     {
       id: 3,
       title: 'Innovation',
-      description: 'At the time you have decided to hire us, the best moving companies in the Abu Dhabi region, you should not find more workers or people to load and unload your goods.',
+      description: 'By employing this technology, we can continuously upgrade our first-in-line logistics, state-of-the-art methods, and the most advanced tools to complete the furniture container shipping in a quicker, safer, and more efficient way. ',
       icon: <FaLightbulb />,
       accent: accentColor
     }
@@ -53,7 +53,7 @@ const OurValues = () => {
         backgroundColor: `${primaryColor}15`,
         filter: 'blur(40px)'
       }}></div>
-      
+
       <div style={{
         position: 'absolute',
         bottom: '-50px',
@@ -97,9 +97,9 @@ const OurValues = () => {
             marginBottom: '15px',
             border: `1px solid ${primaryColor}30`
           }}>
-            OUR VALUES
+            Our Core Value
           </div>
-          
+
           <h2 style={{
             fontSize: '3rem',
             marginBottom: '15px',
@@ -107,9 +107,9 @@ const OurValues = () => {
             fontWeight: '700',
             textAlign: 'center'
           }}>
-            Our Core Values
+            Shipping Companies Dubai
           </h2>
-          
+
           <div style={{
             width: '80px',
             height: '4px',
@@ -117,7 +117,7 @@ const OurValues = () => {
             borderRadius: '2px',
             margin: '0 auto 20px'
           }}></div>
-          
+
           <p style={{
             fontSize: '1.1rem',
             color: `${lightColor}CC`,
@@ -126,7 +126,7 @@ const OurValues = () => {
             textAlign: 'center',
             lineHeight: '1.6'
           }}>
-            The principles that guide every decision we make and every service we provide
+            These core values of ours are a reflection of the promise we make to our customers to always provide them with services that are not only safe and reliable but also put their needs at the forefront. Our services in shipping furniture containers are fundamentally rooted in the ideals of honesty, good manners, and striving for excellence
           </p>
         </div>
 
@@ -137,8 +137,8 @@ const OurValues = () => {
           gap: '30px'
         }}>
           {values.map((value, index) => (
-            <div 
-              key={value.id} 
+            <div
+              key={value.id}
               style={{
                 backgroundColor: `${lightColor}08`,
                 backdropFilter: 'blur(10px)',
@@ -189,7 +189,7 @@ const OurValues = () => {
               }}>
                 {React.cloneElement(value.icon, { size: 32 })}
               </div>
-              
+
               {/* Content */}
               <h3 style={{
                 fontSize: '1.6rem',
@@ -209,7 +209,7 @@ const OurValues = () => {
                   borderRadius: '2px'
                 }}></span>
               </h3>
-              
+
               <p style={{
                 margin: '0',
                 color: `${lightColor}AA`,
@@ -217,7 +217,7 @@ const OurValues = () => {
                 fontSize: '1.05rem',
                 textAlign: 'justify'
               }}>{value.description}</p>
-              
+
               {/* Hover indicator */}
               <div style={{
                 position: 'absolute',
@@ -256,14 +256,14 @@ const OurValues = () => {
             marginBottom: '15px',
             fontSize: '1.8rem'
           }}>
-            Ready to Experience Our Values?
+            Ready to Experience Our Values shipping container price in Dubai
           </h3>
           <p style={{
             color: `${lightColor}AA`,
             marginBottom: '25px',
             fontSize: '1.1rem'
           }}>
-            Let us demonstrate our commitment to excellence in every move
+            Experience a trustworthy, safe, and dedicated service—a place where our values lead every step to guarantee a hassle-free and a calm furniture shipping time container shipping companies in Dubai.
           </p>
           <button
             style={{
@@ -278,6 +278,8 @@ const OurValues = () => {
               transition: 'all 0.3s ease',
               boxShadow: `0 5px 20px ${primaryColor}30`
             }}
+            onClick={() => window.open("https://www.wemovers.ae/", "_blank")}
+
             onMouseEnter={(e) => {
               e.target.style.backgroundColor = secondaryColor;
               e.target.style.transform = 'translateY(-2px)';
@@ -291,6 +293,7 @@ const OurValues = () => {
           >
             Get Started Today
           </button>
+
         </div>
       </div>
     </div>
