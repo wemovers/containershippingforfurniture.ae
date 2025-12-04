@@ -65,10 +65,10 @@ const Hero = () => {
             lineHeight: "1.2",
             color: "#4C763B",
             marginBottom: "20px",
+            textAlign:"justify"
           }}
         >
-          Your Trusted Moving  
-          <span style={{ color: "#4C763B" }}> & Relocation Partner</span>
+          Container​‍​‌‍​‍‌​‍​‌‍​‍‌ Shipping for Furniture
         </h1>
 
         <p
@@ -81,9 +81,8 @@ const Hero = () => {
             textAlign: "justify",
           }}
         >
-          From home shifting to international relocation, WeMovers delivers a
-          smooth, stress-free moving experience backed by expert packing, secure
-          handling, and on-time delivery—every single time.
+        Container shipping for furniture is a money-saving and secure mode of transport that allows you to take the least amount of trouble to move your home goods from one country to another. In any case, whether you are moving, exporting furniture, or shipping bulk items for business, container shipping in the UAE is the safest, least handled, and cheapest way to transport your goods. Your furniture is the most secure against passing if you have durable containers, professional packing, and simplified customs procedures; in fact, the furniture is protected from damage, weather, and theft during the entire trip. Use container shipping as a smooth, worry-free, and convenient way to move your valuable furniture anywhere in the ​‍​‌‍​‍‌​‍​‌‍​‍‌world.
+
         </p>
 
         {/* HIGHLIGHT TAG */}
@@ -160,7 +159,7 @@ const Hero = () => {
             style={{
               position: "absolute",
               top: "-20px",
-              left: "-20px",
+              left: "-5px",
               width: "100px",
               height: "100px",
               backgroundColor: "#B0CE88",

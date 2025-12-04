@@ -75,7 +75,7 @@ const Mission = () => {
   };
 
   return (
-    <section style={sectionStyle}>
+    <section style={sectionStyle} id="mission">
       <div style={containerStyle}>
 
         {/* ------- Left Content ------- */}

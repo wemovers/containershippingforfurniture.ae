@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 import '../assets/css/BlogPage.css'
 import img from '../assets/img/container1.jpg';
-import img2 from '../assets/img/b8.jpg';
+import img2 from '../assets/img/c1.jpg';
 import { Link } from 'react-router-dom';
 
 const BlogPage = () => {
@@ -19,13 +19,13 @@ const BlogPage = () => {
     },
      {
       id: 2,
-      title: 'Best and Cheap International Movers in Dubai, UAE',
-      description: 'Discover top-rated, affordable international movers in Dubai. Get expert guidance on reliable, cheap relocation services for a stress-free move.....',
-      metaTitle:'Top-Rated Best & Cheap International Movers in Dubai',
-      metaDescription:'Discover top-rated, affordable international movers in Dubai. Get expert guidance on reliable, cheap relocation services for a stress-free move.',
+      title: 'How to Choose the Right Container for Shipping Furniture?',
+      description: 'Shipping big objects, such as furniture, internationally may be fairly troublesome. Positively, its not as difficult as you might think.....',
+      metaTitle:'Best Containers for Safe Furniture Shipping Guide.',
+      metaDescription:'Learn how to choose the correct container for shipping furniture safely with suggestions on size, protection, and transport considerations for damage-free delivery.',
       thumbnail: img2,
-      date: 'October 2, 2025',
-      url: '/blog/best-and-cheap-international-movers-in-dubai-uae'
+      date: 'December 4, 2025',
+      url: '/blog/how-to-choose-right-container'
     },
   ];
   const titles = blogPosts.map(post => post.metaTitle).join(' | ');

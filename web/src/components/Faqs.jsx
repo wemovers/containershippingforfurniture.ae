@@ -95,7 +95,7 @@ const Faqs = () => {
   };
 
   return (
-    <section style={sectionStyle}>
+    <section style={sectionStyle} id="faqs">
       <div style={containerStyle}>
 
         <h2 style={titleStyle}>
