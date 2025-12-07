@@ -65,7 +65,7 @@ const Hero = () => {
             lineHeight: "1.2",
             color: "#4C763B",
             marginBottom: "20px",
-            textAlign:"justify"
+
           }}
         >
           Container​‍​‌‍​‍‌​‍​‌‍​‍‌ Shipping for Furniture
