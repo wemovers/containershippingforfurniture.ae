@@ -109,34 +109,30 @@ const Faqs = () => {
 
         <div style={listStyle}>
           <FaqItem
-            question="What services do you provide?"
-            answer="We provide home shifting, office relocation, packing services, local & international moving, storage, and more."
+            question="1.​‍​‌‍​‍‌​‍​‌‍​‍‌ What is container shipping for furniture?"
+            answer="Furniture container shipping is the transport of furniture in specially made protective containers, which can be either local or international, and thus, the furniture is guaranteed to be safe from any damage, bad weather, or even theft."
             colors={colors}
           />
 
           <FaqItem
-            question="Do you offer packing materials?"
-            answer="Yes, we provide cartons, bubble wrap, packing tape, and secure packing materials for all items."
+            question="2. How are my furniture items packed for container shipping?"
+            answer="For the packaging, we use the most ideal materials that are sure to give maximum protection, such as bubble wrap, blankets, and custom crates. If any are made of glass or are valuable pieces, they will be more closely looked at and handled with care"
             colors={colors}
           />
 
           <FaqItem
-            question="Are your moving services insured?"
-            answer="Yes, we offer insured moving services so your belongings remain safe and protected throughout the move."
+            question="3. What types of containers are available for furniture shipping?"
+            answer="We offer different sizes of containers to include 20ft and 40ft containers, which can hold household moves of small or large loads, or even furniture transports from commercial."
             colors={colors}
           />
 
           <FaqItem
-            question="How early should I book your service?"
-            answer="Ideally, you should book 2–3 days in advance. For urgent moves, we also provide same-day booking depending on availability."
+            question="4. Can I track my furniture during container shipping?"
+            answer="Certainly, we do offer tracking services and update you regularly so that you can witness the progress of your shipment throughout the voyage"
             colors={colors}
           />
 
-          <FaqItem
-            question="Do you handle fragile items?"
-            answer="Absolutely! We use special packing techniques for glass, electronics, décor pieces, and other fragile items."
-            colors={colors}
-          />
+         
         </div>
       </div>
     </section>
